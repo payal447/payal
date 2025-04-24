@@ -1,0 +1,97 @@
+{ 
+    margin:0;
+    
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    }
+    h1{
+    
+    
+    text-align:center;
+    
+    color:rgb(16, 122, 221);
+    padding: 20px;
+    }
+    nav{
+    background-color: rgb(141, 138, 138);
+    display: grid;
+    place-items: center;
+    
+    }
+    nav ul{
+    
+    list-style-type: none;
+    }
+    nav ul a{
+
+        display: inline-block;
+        
+        padding: 20px;
+        text-decoration: none;
+        
+        color: #000;
+        
+        font-size: 18px;
+        
+        nav ul a:hover{
+        
+        bacground-color:green;
+        color: white;
+        }
+        .Items{
+        display:grid;
+        padding: 30px 20px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 30px;
+        
+        }
+        .Item img{
+        width: 300px;
+        
+        height:300px;
+        
+        cursor:pointer;
+        
+        }
+        
+        .Item img:hover{
+        
+        transform: scale(1.04);
+        
+        }
+        
+        .Item button{
+        
+        background-color:☐green;
+        color: white;
+        
+        }
+        
+        .footer-content{
+        
+        display: flex;
+        
+        margin: 0 auto;
+        
+        font-size: 10px;
+        
+        }
+        
+        footer {
+        background-color:green;
+        
+        width: 100%;
+        
+        padding: 70px, 30px, 20px;
+        
+        }
+        
+        .footerBottom p{
+        text-align: center;
+        
+        bottom: 0;
+        
+        position: relative;
+        
+        }
